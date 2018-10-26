@@ -1,0 +1,18 @@
+CC = gcc 
+
+LDFLAGS = 
+
+all: client server
+
+client: client.o
+
+server: server.o
+
+client.o: client.c client.h
+
+server.o: server.c server.h
+
+clean: 
+	rm *.o
+
+.PHONY: all clean

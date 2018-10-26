@@ -1,0 +1,9 @@
+use .h files for timer pause for the game while loop, see
+ miliSecPause.c for technical details
+
+
+Part 1: only requires server/client communication, nothing more
+Part 2: requires multithreading the process
+Part 3: requires threading pools
+
+Part 2&3 may be more complicated
