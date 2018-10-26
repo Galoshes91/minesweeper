@@ -22,8 +22,6 @@
 //hello
 
 // Struct for the tile objects
-
-int hello;
  
 typedef struct  {
 
