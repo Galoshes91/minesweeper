@@ -19,7 +19,12 @@
 #define NUM_MINES 10
 #define TITLEBORDER "================================================"
 
+//hello
+
 // Struct for the tile objects
+
+int hello;
+ 
 typedef struct  {
 
 	bool isMine;
